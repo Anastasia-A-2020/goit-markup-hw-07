@@ -1,0 +1,11 @@
+:root {
+    --accent-color: #2196F3;
+    --color-title: #212121;
+    --color-description: #757575;
+    --color-lead: #ffffff;
+    --main-font: 'Roboto', sans-serif;
+    --secondary-font: 'Raleway', sans-serif;
+    --projects-list-gap: 30px;
+    --duration: 250ms;
+    --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
