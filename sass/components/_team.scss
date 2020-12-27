@@ -32,14 +32,14 @@
     font-size: 16px;
     line-height: 1.188;
     letter-spacing: 0.03em;
-    color: var(--color-title);
+    color: $color-title;
 }
 .team-list-item-position {
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
     letter-spacing: 0.03em;
-    color: var(--color-description);
+    color: $color-description;
     padding-top: 10px;
 }
 
@@ -60,18 +60,18 @@
     height: 44px;
     border-radius: 50%;
     
-    transition-duration: var(--duration);
-    transition-timing-function: var(--timing-function);
+    transition-duration: $duration;
+    transition-timing-function: $timing-function;
 
     &:focus,
     &:hover {
-        background-color: var(--accent-color);
+        background-color: $accent-color;
     }
 }
 
 .social-list_link:hover .social-link-icon,
 .social-list_link:focus .social-link-icon {
-    fill: var(--color-lead);
+    fill: $color-lead;
 }
 
 .social-list_link {

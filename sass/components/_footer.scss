@@ -11,7 +11,7 @@
     font-size: 14px;
     line-height: 1.714;
     letter-spacing: 0.03em;
-    color: var(--color-lead);
+    color: $color-lead;
     text-decoration: none;
     margin-top: 20px;
 }
@@ -24,26 +24,26 @@
     line-height: 1.714;
     letter-spacing: 0.03em;
     text-decoration: none;
-    color: var(--color-description);
+    color: $color-description;
 
-    transition-duration: var(--duration);
-    transition-timing-function: var(--timing-function);
+    transition-duration: $duration;
+    transition-timing-function: $timing-function;
 
     &:focus,
     &:hover {
-        color: var(--accent-color);
+        color: $accent-color;
     }
 }
 
 .footer-slogan,
 .footer-form-title {
-    font-family: var(--main-font);
+    font-family: $main-font;
     font-style: normal;
     font-weight: 700;
     font-size:14px;
     line-height: 1.143;
     letter-spacing: 0.03em;
-    color: var(--color-lead);
+    color: $color-lead;
     text-transform: uppercase;
 }
 
@@ -73,7 +73,7 @@
 }
 
 .footer-contacts-icon {
-    fill: var(--color-lead);
+    fill: $color-lead;
 }
 
 .footer-contacts-item {
@@ -107,7 +107,7 @@
     width: 358px;
     height: 50px;
 
-    color:var(--color-lead);
+    color:$color-lead;
 
     border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 4px;
@@ -119,14 +119,14 @@
     width: 200px;
     height: 50px;
 
-    font-family: var(--main-font);
+    font-family: $main-font;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.875;
     letter-spacing: 0.06em;
 
-    color: var(--color-lead);
-    background-color: var(--accent-color);
+    color: $color-lead;
+    background-color: $accent-color;
 
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;

@@ -18,7 +18,7 @@
     font-size: 44px;
     line-height: 1.364;
     text-transform: uppercase;
-    color: var(--color-lead);
+    color: $color-lead;
     letter-spacing: 0.06em;
 
     max-width: 696px;
@@ -31,8 +31,8 @@
     font-weight: 700;
     font-size: 16px;
     line-height: 1.875;
-    color: var(--color-lead);
-    background-color: var(--accent-color);
+    color: $color-lead;
+    background-color: $accent-color;
     min-width: 200px;
     border-radius: 4px;
     padding: 10px 32px;
@@ -43,9 +43,9 @@
 .project-buttons-list-item-button:focus,
 .button:hover,
 .button:focus {
-    background-color: var(--accent-color);
+    background-color: $accent-color;
     cursor: pointer;
-    color: var(--color-lead);
+    color: $color-lead;
 }
 
 .overlay {
@@ -108,16 +108,16 @@
 
     border-radius:50%;
     border: 1px solid rgba(0, 0, 0, 0.1);
-    background: var(--color-lead);
+    background: $color-lead;
 }
 
 .close-icon {
     justify-content: center;
-    transform: fill var(--duration) var(--timing-function) linear;
+    transform: fill $duration $timing-function linear;
 
     &:hover,
     &:focus  {
-        fill: var(--accent-color);
+        fill: $accent-color;
         cursor: pointer;
     }
 }
@@ -132,7 +132,7 @@
 .modal-text {
     margin-bottom: 12px;
 
-    font-family: var(--main-font);
+    font-family: $main-font;
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
@@ -140,20 +140,20 @@
     text-align: center;
     letter-spacing: 0.03em;
 
-    color:var(--color-title);
+    color: $color-title;
 }
 
 .modal-form-field {
     margin-bottom: 10px;
 
     text-align: start;
-    font-family: var(--main-font);
+    font-family: $main-font;
     font-weight: 400;
     font-size: 12px;
     line-height: 1.167;
     letter-spacing: 0.01em;
 
-    color: var(--color-description);
+    color: $color-description;
 }
 
 .modal-form-input-wrapper {
@@ -173,13 +173,13 @@
     &:hover,
     &:focus {
         outline: none;
-        border-color: var(--accent-color);
+        border-color: $accent-color;
         cursor: pointer;
     }
     
     &:hover + .modal-form-icon,
     &:focus + .modal-form-icon {
-        fill: var(--accent-color);
+        fill: $accent-color;
     }
 }
 
@@ -188,9 +188,9 @@
     top: 50%;
     left: 12px;
     transform: translateY(-50%);
-    transition: fill var(--duration) var(--timing-function);
+    transition: fill $duration timing-function;
     display: block;
-    fill: var(--color-title);
+    fill: $color-title;
 }
 
 .modal-form-message {
@@ -200,22 +200,22 @@
     height: 120px;
     resize: none;
 
-    font-family: var(--main-font);
+    font-family: $main-font;
     font-weight: 400;
     font-size: 12px;
     line-height: 1.167;
     letter-spacing: 0.01em;
 
-    color: var(--color-description);
+    color: $color-description;
 
 
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
-    transition: border-color var(--duration) var(--timing-function);
+    transition: border-color $duration $timing-function;
 
     &:focus {
         outline: none;
-        border-color: var(--accent-color);
+        border-color: $accent-color;
         cursor: pointer;
     }
 }
@@ -224,13 +224,13 @@
     margin-top: 10px;
     margin-right: 7px;
     margin-bottom: 30px;
-    font-family: var(--main-font);
+    font-family: $main-font;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.714;
     letter-spacing: 0.03em;
 
-    color: var(--color-description);
+    color: $color-description;
 
     &::before {
         content: "";
@@ -243,8 +243,8 @@
     }
 
     .modal-form-policy:checked + &::before {
-        border:var(--accent-color);
-        background-color: var(--accent-color);
+        border: $accent-color;
+        background-color: $accent-color;
         background-image: url(../images/checked.png);
         background-repeat: no-repeat;
         background-position: 50% 50%;
@@ -252,7 +252,7 @@
 }
 
 .modal-form-polyci-link {
-    color: var(--accent-color);
+    color: $accent-color;
 }
 
 .visuallyhidden {
@@ -272,14 +272,14 @@
     width: 200px;
     height: 50px;
 
-    font-family: var(--main-font);
+    font-family: $main-font;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.875;
     letter-spacing: 0.06em;
 
-    color: var(--color-lead);
-    background-color: var(--accent-color);
+    color: $color-lead;
+    background-color: $accent-color;
 
     outline: none;
     border: none;

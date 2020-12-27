@@ -1,6 +1,6 @@
 @import "./utils/variables";
 @import "./components/body";
-@import "./components/components";
+@import "./base/common";
 @import "./components/header";
 @import "./components/hero";
 @import "./components/discription";
@@ -9,4 +9,4 @@
 @import "./components/clients";
 @import "./components/footer";
 
-@import "./portfolio/projects";
+@import "./components/projects";

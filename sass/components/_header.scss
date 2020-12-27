@@ -46,7 +46,7 @@ header .logo {
 }
 
 .logo {
-    font-family: var(--secondary-font);
+    font-family: $secondary-font;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.192;
@@ -76,13 +76,13 @@ header .logo {
     text-decoration: none;
     padding-top: 32px;
     padding-bottom: 32px;
-    color: var(--color-title);
-    transition-duration: var(--duration);
-    transition-timing-function: var(--timing-function);
+    color: $color-title;
+    transition-duration: $duration;
+    transition-timing-function: $timing-function;
 
     &:hover,
     &:focus {
-        color: var(--accent-color);
+        color: $accent-color;
     }
 }
 
@@ -99,24 +99,24 @@ header .logo {
     line-height: 1.143;
     letter-spacing: 0.02em;
     text-decoration: none;
-    color: var(--color-description);
-    transition-duration: var(--duration);
-    transition-timing-function: var(--timing-function);
+    color: $color-description;
+    transition-duration: $duration;
+    transition-timing-function: $timing-function;
 
     &:hover,
     &:focus {
-        color: var(--accent-color);
+        color: $accent-color;
     }
 }
 
 .address-mail-icon {
     margin-right: 10px;
-    transition-duration: var(--duration);
-    transition-timing-function: var(--timing-function);
+    transition-duration: $duration;
+    transition-timing-function: $timing-function;
 
     .address-mail:hover &,
     .address-mail:focus & {
-        fill: var(--accent-color);
+        fill: $accent-color;
     }
 
 }
@@ -126,7 +126,7 @@ header .logo {
 
     .address-tel:hover &,
     .address-tel:focus & {
-        fill: var(--accent-color);
+        fill: $accent-color;
     }
 }
 
@@ -138,12 +138,12 @@ header .logo {
 
 .current {
     position: relative;
-    color: var(--accent-color);
+    color: $accent-color;
 
     &::after {
         content:"";
         display: inline-block;
-        background-color:var(--accent-color);
+        background-color: $accent-color;
         position: absolute;
         bottom: -1px;
         right: 0;

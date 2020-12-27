@@ -13,25 +13,25 @@
     width: 170px;
     height: 90px;
 
-    transition-duration: var(--duration);
-    transition-timing-function: var(--timing-function);
+    transition-duration: $duration;
+    transition-timing-function: $timing-function;
 
     &:hover,
     &:focus {
-        color: var(--accent-color);
-        border: 1px solid var(--accent-color);
+        color: $accent-color;
+        border: 1px solid $accent-color;
     }
 }
 
 .client-list-link-icon {
     fill: #AFB1B8;
     
-    transition-duration: var(--duration);
-    transition-timing-function: var(--timing-function);
+    transition-duration: $duration;
+    transition-timing-function: $timing-function;
 
     .client-list-link:hover &,
     .client-list-link:focus & {
-        fill: var(--accent-color);
+        fill: $accent-color;
     }
 }
 /*=============== END CLIENTS ===============*/
