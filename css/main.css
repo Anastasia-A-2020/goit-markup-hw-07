@@ -483,10 +483,6 @@ header .logo {
   padding: 25px 100px;
 }
 
-.advantage-list-icon::not(:last-child) {
-  padding-right: 30px;
-}
-
 .advantage-list-item-title {
   font-weight: 700;
   font-size: 14px;
@@ -496,7 +492,6 @@ header .logo {
   color: #212121;
   padding-bottom: 10px;
 }
-
 .advantage-list-item-description {
   width: 270px;
   font-weight: 400;
@@ -504,6 +499,9 @@ header .logo {
   line-height: 1.714;
   letter-spacing: 0.03em;
   color: #757575;
+}
+.advantage-list-item:not(:last-child) {
+  padding-right: 30px;
 }
 
 /*=============== END DISCRIPTION ===============*/
@@ -826,13 +824,13 @@ header .logo {
 .projects-list {
   display: flex;
   flex-wrap: wrap;
-  margin-left: calc(-1*$projects-list-gap);
-  margin-top: calc(-1*$projects-list-gap);
+  margin-left: calc(-1*30px);
+  margin-top: calc(-1*30px);
 }
 
 .projects-list-item {
   background-color: #FFFFFF;
-  flex-basis: calc(100/3 - $projects-list-gap);
+  flex-basis: calc(100/3 - 30px);
   margin-left: 30px;
   margin-top: 30px;
 }
